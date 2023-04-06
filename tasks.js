@@ -1,5 +1,5 @@
 // Github link for Typescript of same Tasks is: https://github.com/BahadurKhan10/Typescript-Tasks.git
-// Changed logics and make them more accurate, handled null and undefined in prompts etc
+// handled null and undefined in prompts etc
 // and made it more user friendly in typescript
 
 
