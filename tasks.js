@@ -1,8 +1,5 @@
 // Github link for Typescript of same Tasks is: https://github.com/BahadurKhan10/Typescript-Tasks.git
-// Changed logics and make them more accurate, handled null and undefined in prompts etc
-// and made it more user friendly in typescript
-
-
+// handled null and undefined in prompts etc
 
 
 // 1. Write a JavaScript program that accepts two numbers in two prompts and
