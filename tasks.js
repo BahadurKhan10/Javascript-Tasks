@@ -87,18 +87,16 @@ console.log(checkSign(-3))
 // displays the larger one in the console
 
 function checkLargeNum(){
-    const numb1=parseInt(prompt("Enter number 1"))
-    const numb2=parseInt(prompt("Enter Number 2"))
-    const numb3=parseInt(prompt("Enter number 3"))
-    const numb4=parseInt(prompt("Enter Number 4"))
-    const numb5=parseInt(prompt("Enter number 5"))
-
-    const max= Math.max(numb1,numb2,numb3,numb4,numb5)
-    return `The larger number is ${max}`
-    // console.log(`The larger number is ${max}`)
+  const nums = []
+  for(let i = 1; i <= 5; i++){
+    const num = parseInt(prompt(`Enter number ${i}`))
+    nums.push(num)
+  }
+  const max = Math.max.apply(null, nums)
+  return `The larger number is ${max}`
 }
 
-const x=checkLargeNum()
+const x = checkLargeNum()
 console.log(x)
 
 // -----------------------------------------------------------------------------------------------------------------
