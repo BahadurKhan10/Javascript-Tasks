@@ -1,5 +1,5 @@
-// Github link for Typescript of same Tasks is: https://github.com/BahadurKhan10/Typescript-Tasks.git
-// handled null, invalid input and undefined input in prompts etc
+// Github link for Typescript of same Tasks is: 
+// Changed logics and make them more accurate, handled null and undefined in prompts etc
 // and made it more user friendly in typescript
 
 
@@ -77,7 +77,6 @@ console.log(checkSign(-5))
 console.log(checkSign(3))
 console.log(checkSign(-3))
 
-
 // -----------------------------------------------------------------------------------------------------------------
 
 // 3. Write a JavaScript program that accepts five numbers in five prompts and
@@ -95,6 +94,7 @@ function checkLargeNum(){
 
 const x = checkLargeNum()
 console.log(x)
+
 
 // -----------------------------------------------------------------------------------------------------------------
 
@@ -182,6 +182,29 @@ for(let i=1; i<=100; i++){
     console.log(i)
   }
 }
+
+
+// Making a function where we will give range and it will print Fizz Buzz and FizzBuzz between given range
+
+function FizzB(num1,num2){
+  for(i=1; i>=num1 && i<=num2; i++){
+      if(i%5==0 && i%3==0){
+          console.log("FizzBuzz")
+      }
+      else if(i%3==0){
+          console.log("Fizz")
+      }
+      else if(i%5==0){
+          console.log("Buzz")
+      }
+      else{
+          console.log(i)
+      }
+}}
+
+const y=FizzB(1,15)
+console.log(y)
+
 
 
 
