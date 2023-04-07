@@ -1,5 +1,6 @@
 // Github link for Typescript of same Tasks is: https://github.com/BahadurKhan10/Typescript-Tasks.git
-// handled null, undefined or invalid input in prompts etc
+// handled null, undefined or invalid input in prompts
+// used isNan to check if input is number or not (valid) etc..
 
 
 // 1. Write a JavaScript program that accepts two numbers in two prompts and
