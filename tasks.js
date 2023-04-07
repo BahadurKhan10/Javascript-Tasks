@@ -53,33 +53,30 @@ console.log(number1)
 // Output : The sign is -
 
 
-const num=-5
+const num = -5;
+
 if (num < 0) {
-  // console.log("The sign is -")
-  console.log(`${num} is negative`) ;
+  alert(`${num} is negative`);
 } else {
-  // console.log("The sign is +")
-  console.log(`${num} is positive`);
+  alert(`${num} is positive`);
 }
+
 
 
 // Making Function for above
 
 function checkSign(num){
-    if(num < 0 ){
-        // console.log("The sign is -")
-        return `${num} is negative`
-
-    }else{
-        // console.log("The sign is +")
-        return `${num} is posive`
-
-    }
+  if (num < 0) {
+    alert(`${num} is negative`);
+  } else {
+    alert(`${num} is positive`);
+  }
 }
 console.log(checkSign(5))
 console.log(checkSign(-5))
 console.log(checkSign(3))
 console.log(checkSign(-3))
+
 
 // -----------------------------------------------------------------------------------------------------------------
 
