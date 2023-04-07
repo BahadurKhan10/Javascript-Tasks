@@ -202,7 +202,7 @@ function FizzB(num1,num2){
       }
 }}
 
-const y=FizzB(1,15)
+const y=FizzB(1,100)
 console.log(y)
 
 
