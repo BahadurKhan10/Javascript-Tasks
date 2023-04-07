@@ -227,5 +227,19 @@ for(let i=1; i<=5; i++){
 }
 
 
+// Making function that will print pattern size according to user input
+
+
+function pattern(num){
+  for(let i=1; i<=num; i++){
+      let line = '';
+      for(let j=1; j<=i; j++){
+        line += '* ';
+      }
+      console.log(line);
+    }
+}
+console.log(pattern(5))
+
 // -----------------------------------------------------------------------------------------------------------------
 
