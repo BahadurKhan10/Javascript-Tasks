@@ -96,7 +96,7 @@ const x = checkLargeNum()
 console.log(x)
 
 // alternate logic:
-        // push numbers for prompt into nums[]
+        // push numbers of prompt into nums[]
         // then sort the nums in ascending order
         // print the value at 0 in num
 
